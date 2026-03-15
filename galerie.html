@@ -10,7 +10,9 @@
 <body>
 
 <header>
-    <h1>Galerie Gymnastique</h1>
+    <p class="header-eyebrow">Gymnastique Passion</p>
+    <h1>Galerie</h1>
+    <p>Images & performances d'exception</p>
 </header>
 
 <nav>
@@ -19,35 +21,80 @@
         <li><a href="histoire.html">Histoire</a></li>
         <li><a href="gymnastes.html">Gymnastes</a></li>
         <li><a href="competitions.html">Compétitions</a></li>
-        <li><a href="galerie.html" aria-current="page">Galerie</a></li>
+        <li><a href="galerie.html" class="active">Galerie</a></li>
     </ul>
 </nav>
 
 <main class="container">
-    <h2>Images de gymnastique</h2>
 
-    <div class="gallery">
-        <img src="images/gymnastique1.jpg" alt="Gymnaste en action">
-        <img src="images/gymnastique2.jpg" alt="Exercice au sol">
-        <img src="images/simone.jpg" alt="Simone Biles">
-        <!-- <img src="images/nadia.jpg" alt="Nadia Comăneci"> -->
-    </div>
+    <section class="gallery-section">
+        <p class="intro-label">Photographies</p>
+        <h2>Quelques images de gymnastique</h2>
 
-    <!-- <div class="video-container">
-        <iframe 
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed/m4wPq-HuZCk" 
-            title="Vidéo de gymnastique"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-        </iframe>
-    </div> -->
+        <div class="gallery">
+            <div class="gallery-item tall">
+                <img src="images/gymnastique1.jpg" alt="Gymnaste en action">
+                <div class="gallery-overlay"><span>Gymnaste en action</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/gymnastique2.jpg" alt="Exercice au sol">
+                <div class="gallery-overlay"><span>Exercice au sol</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/simone.jpg" alt="Simone Biles">
+                <div class="gallery-overlay"><span>Simone Biles</span></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ── VIDÉO 1 ── -->
+    <section class="video-section">
+        <p class="intro-label">Performance · Médaille d'or</p>
+        <h2>Performance au sol de Rebeca Andrade</h2>
+
+        <p class="video-desc">
+            Sa routine combine puissance, précision et expression artistique.
+            Grâce à ses sauts spectaculaires et ses réceptions maîtrisées,
+            elle signe une prestation impressionnante qui lui vaut la médaille d'or.
+        </p>
+
+        <div class="video-wrap">
+            <video controls>
+                <source src="videos/rebeca_andrade.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la vidéo.
+            </video>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section class="video-section">
+        <p class="intro-label">Paris 2024 · Retour légendaire</p>
+        <h2>Retour de Simone Biles aux JO de Paris 2024</h2>
+
+        <p class="video-desc">
+            Après une pause dans sa carrière, la championne réalise un retour spectaculaire
+            sur la poutre. Elle démontre une grande maîtrise technique, de l'élégance et une
+            concentration exceptionnelle — l'un des moments les plus marquants de la
+            gymnastique aux Jeux Olympiques.
+        </p>
+
+        <div class="video-wrap">
+            <video controls>
+                <source src="videos/simone_biles_paris2024.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la vidéo.
+            </video>
+        </div>
+    </section>
+
 </main>
 
 <footer>
-    <p>Projet HTML/CSS - Gymnastique Passion</p>
+    <div class="footer-inner">
+        <p>Projet HTML/CSS · Gymnastique Passion</p>
+    </div>
 </footer>
 
 </body>

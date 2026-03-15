@@ -1,5 +1,3 @@
-/* gymnastes.css */
-
 .container {
     width: 90%;
     max-width: 1100px;
@@ -34,6 +32,20 @@
     box-shadow: 0 20px 52px rgba(15, 25, 35, 0.14);
     border-color: rgba(184, 145, 42, 0.3);
   }
+
+
+  .wiki-link {
+    display: inline-block;
+    margin-top: 14px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: var(--gold);
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+  
+  .wiki-link:hover { opacity: 0.7; }
   
   /* Top accent bar */
   .card::before {
@@ -81,7 +93,6 @@
     line-height: 1.8;
   }
   
-  /* ─── Responsive ─── */
   @media (max-width: 860px) {
     .cards { grid-template-columns: repeat(2, 1fr); }
   }

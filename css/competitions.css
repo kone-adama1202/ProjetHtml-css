@@ -1,5 +1,3 @@
-/* competitions.css */
-
 :root {
     --ink: #0f1923;
     --ink-soft: #3a4a58;
@@ -24,9 +22,7 @@
     line-height: 1.75;
     -webkit-font-smoothing: antialiased;
   }
-  
-  /* ─── HEADER ─────────────────────────────────── */
-  
+    
   header {
     position: relative;
     background: var(--ink);
@@ -353,9 +349,7 @@
   }
   
   .footer-inner p { font-size: 0.82rem; }
-  
-  /* ─── RESPONSIVE ─────────────────────────────── */
-  
+    
   @media (max-width: 860px) {
     .comp-grid, .comp-grid.reverse { grid-template-columns: 1fr; }
     .comp-grid.reverse .comp-img-wrap { order: -1; }

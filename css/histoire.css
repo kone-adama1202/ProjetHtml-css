@@ -1,7 +1,3 @@
-/* ═══════════════════════════════════════════
-   histoire.css — Gymnastique Passion
-   Direction : Récit éditorial + Timeline
-   ═══════════════════════════════════════════ */
 
    :root {
     --ink: #0f1923;
@@ -30,9 +26,7 @@
     line-height: 1.75;
     -webkit-font-smoothing: antialiased;
   }
-  
-  /* ─── HEADER ────────────────────────────────── */
-  
+    
   header {
     position: relative;
     background: var(--ink);
@@ -103,9 +97,7 @@
   .header-ornament span:last-child {
     background: linear-gradient(90deg, var(--gold), transparent);
   }
-  
-  /* ─── NAV ────────────────────────────────────── */
-  
+    
   nav {
     background: rgba(15, 25, 35, 0.97);
     backdrop-filter: blur(12px);
@@ -153,9 +145,7 @@
   
   nav ul li a:hover::after,
   nav ul li a.active::after { transform: translateX(-50%) scaleX(1); }
-  
-  /* ─── CONTAINER ─────────────────────────────── */
-  
+    
   .container {
     width: 90%;
     max-width: 1060px;
@@ -167,9 +157,7 @@
     from { opacity: 0; transform: translateY(24px); }
     to   { opacity: 1; transform: translateY(0); }
   }
-  
-  /* ─── PAGE INTRO ─────────────────────────────── */
-  
+    
   .page-intro {
     text-align: center;
     max-width: 680px;
@@ -199,9 +187,7 @@
     color: var(--ink-soft);
     line-height: 1.85;
   }
-  
-  /* ─── TIMELINE ───────────────────────────────── */
-  
+    
   .timeline {
     position: relative;
     margin-bottom: 80px;
@@ -297,7 +283,6 @@
     grid-template-columns: 1fr;
   }
   
-  /* when no image, full width text */
   .timeline-body .timeline-text:only-child {
     grid-column: 1 / -1;
     max-width: 680px;
@@ -375,9 +360,7 @@
     letter-spacing: 0.3px;
     text-align: right;
   }
-  
-  /* ─── KEY DATES STRIP ────────────────────────── */
-  
+    
   .keydates-section {
     background: var(--ink);
     border-radius: 16px;
@@ -443,7 +426,6 @@
     line-height: 1.6;
   }
   
-  /* ─── FOOTER ─────────────────────────────────── */
   
   footer {
     background: var(--ink);
